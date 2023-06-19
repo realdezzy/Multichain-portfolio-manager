@@ -55,7 +55,7 @@ const MarketGraph = () => {
 
     const getTokenHistory = (token) => {
         if(token.uuid){
-            dispatch(getMarketGraphData(token.data.uuid));
+            dispatch(getMarketGraphData(token.data.uuid));///
             setSelectedToken(token.token.symbol)
         }
 
@@ -74,8 +74,6 @@ const MarketGraph = () => {
         // getSelectedTokenSymbol(tokenData);
         setTokens(tokenData);
     },[tokenData])
-
-    // useEffect(() => {}, [selectedToken]);
 
     useEffect(() => {
         let marketDataTemp = marketData?.data?.history;

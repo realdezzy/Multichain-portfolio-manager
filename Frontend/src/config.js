@@ -9,7 +9,7 @@ module.exports = {
     },
 
     api: {
-      API_URL: "https://84a8-197-210-85-82.ngrok-free.app"
+      API_URL: "https://3443-197-210-79-188.ngrok-free.app/"
     }
 
   };
